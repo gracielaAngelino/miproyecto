@@ -1,0 +1,20 @@
+header{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #1f6725, #2de269);
+    background: linear-gradient(to right, #404041, #2de269);
+}
+
+/*estilos para la tabla*/
+table th {
+    background: -webkit-linear-gradient(to right, #4d4d4d, #404041);
+    background: linear-gradient(to right, #4d4d4d, #404041);
+    color: white;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
